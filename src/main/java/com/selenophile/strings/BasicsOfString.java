@@ -4,7 +4,7 @@ public class BasicsOfString {
     /*
     * Basic Declaration
     * */
-    public void declare(){
+    public void declareAndPrint(){
         String name = new String();
         printName(name);
         name = "Kunal";
