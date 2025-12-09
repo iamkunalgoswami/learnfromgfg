@@ -11,6 +11,11 @@ public class App
     public static void main( String[] args )
     {
         System.out.println( "Hello World!" );
-        new BasicsOfString().declareAndPrint();
+        /*
+        * BasicsOfString
+        * */
+        BasicsOfString basicsOfString = new BasicsOfString();
+        basicsOfString.declareAndPrint();
+        basicsOfString.checkStringPoolMemoryAllocation();
     }
 }
